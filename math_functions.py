@@ -1,0 +1,43 @@
+print("Math Functions with static values:")
+print()
+import math
+print("Absolute value of -120:", abs(-120))
+print("Square root of 25:", math.sqrt(25))
+print("Ceiling of 12.2:", math.ceil(12.2))
+print("Floor of 12.2:", math.floor(12.2))
+print("2 raised to 3:", pow(2, 3))
+print("Exponential of 3:", math.exp(3))
+print("Absolute value of -123:", math.fabs(-123))
+print("Natural Logarithm of 2:", math.log(2))
+print("Logarithm to the Base 10 of 2:", math.log10(2))
+print("Largest among 10, 4, 2:", max(10, 4, 2))
+print("Smallest among 10, 4, 2:", min(10, 4, 2))
+print("12.6789 rounded to 2 decimal places:", round(12.6789, 2))
+print("Decimal part and integer part of 12.090876:", math.modf(12.090876))
+
+print("Math Functions with user input")
+print()
+num = float(input("Enter a positive number: "))
+
+print("Absolute value:", abs(num))
+print("Square root:", math.sqrt(num))
+print("Ceiling:", math.ceil(num))
+print("Floor:", math.floor(num))
+
+base = float(input("Enter the base number: "))
+exponent = float(input("Enter the exponent: "))
+print("Power:", pow(base, exponent))
+
+print("Exponential:", math.exp(num))
+print("Absolute value using fabs:", math.fabs(num))
+print("Natural logarithm:", math.log(num))
+print("Base-10 logarithm:", math.log10(num))
+
+a = float(input("Enter first number: "))
+b = float(input("Enter second number: "))
+c = float(input("Enter third number: "))
+
+print("Largest number:", max(a, b, c))
+print("Smallest number:", min(a, b, c))
+print("Rounded to 2 decimal places:", round(num, 2))
+print("Decimal and integer parts:", math.modf(num))
