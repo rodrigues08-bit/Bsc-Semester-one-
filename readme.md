@@ -1,6 +1,6 @@
-# 🧪 Practicals
+#  Practicals
 
-> A collection of my practical programs, experiments, mistakes, fixes, and small victories while learning to code. 💻✨
+> A collection of my practical programs, experiments, mistakes, fixes, and small victories while learning to code. 
 
 Welcome to my **Practicals Repository**!
 
@@ -9,17 +9,17 @@ Everything here is organized by subject so that future-me doesn't have to go hun
 
 ---
 
-## 📚 What's Inside?
+##  What's Inside?
 
 | Folder | What's in it? |
 |--------|---------------|
-| 🐍 `DataScience/` | Data analysis, visualization, Pandas, Seaborn, Matplotlib and related practicals |
-| 🧮 `Mathematics/` | Mathematical programs and problem-solving exercises |
-| 🧠 `ProblemSolving/` | Python programs focused on logic, problem solving and programming concepts |
+|  `DataScience/` | Data analysis, visualization, Pandas, Seaborn, Matplotlib and related practicals |
+|  `Mathematics/` | Mathematical programs and problem-solving exercises |
+|  `ProblemSolving/` | Python programs focused on logic, problem solving and programming concepts |
 
 ---
 
-## 🐍 Data Science
+##  Data Science
 
 The Data Science folder contains my practical programs involving:
 
@@ -32,11 +32,11 @@ The Data Science folder contains my practical programs involving:
 - Data visualization
 - Dataset analysis
 
-📊 Turning data into something that actually makes sense... one program at a time.
+ Turning data into something that actually makes sense... one program at a time.
 
 ---
 
-## 🧠 Problem Solving
+##  Problem Solving
 
 This section contains Python programs designed to improve my:
 
@@ -52,7 +52,7 @@ Basically, where I make Python solve problems so my brain doesn't have to do all
 
 ---
 
-## 🧮 Mathematics
+##  Mathematics
 
 Programs related to mathematical concepts and calculations.
 
