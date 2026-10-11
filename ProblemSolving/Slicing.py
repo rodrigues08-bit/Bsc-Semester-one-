@@ -20,8 +20,9 @@ print()
 print(text[0::])
 print(text[::-1])
 print(text[0:10:2])
-print(text[0:10:2])
-print(text[0:10:2])
+print(text[::2])
+for i in range(10, 2):
+    print(text[i], end="")
 print(text[0:10:3])
 print(text[0:10:4])
 
