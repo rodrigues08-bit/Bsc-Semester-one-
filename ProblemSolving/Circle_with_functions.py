@@ -1,10 +1,20 @@
 import math
 
-def compute_circle(r):
-    area = math.pi * r ** 2
-    circumference = 2 * math.pi * r
-    print(f"Area of the circle: {area:.2f}")
-    print(f"Circumference of the circle: {circumference:.2f}")
+def circle(radius):
+    # Calculate area (pi * r^2)
+    area = math.pi * (radius ** 2)
+    
+    # Calculate circumference (2 * pi * r)
+    circum = 2 * math.pi * radius
+    
+    # Display the results
+    print("Area of the circle:", area)
+    print("Circumference of the circle:", circum)
 
-radius = float(input("Enter the radius of the circle: "))
-compute_circle(radius)
+# Get the radius from the user
+r = float(input("Enter the radius of the circle: "))
+
+print() # Adds a blank line for readability
+
+# Pass the input to the function
+circle(r)
